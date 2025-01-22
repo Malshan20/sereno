@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "SERENO",
   description: "Chat app with AI suggestions and mood-based messages",
+  icons: {
+    icon: '/s.svg', 
+  },
 }
 
 export default function RootLayout({
